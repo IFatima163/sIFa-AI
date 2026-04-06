@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg: #080C14;
+  --surface: #0D1421;
+  --surface-2: #111827;
+  --border: #1E2D45;
+  --border-light: #243550;
+  --blue: #3B82F6;
+  --blue-dim: #1D3461;
+  --blue-glow: rgba(59,130,246,0.15);
+  --text: #E8EDF5;
+  --text-dim: #6B7FA3;
+  --text-muted: #3D5275;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Syne', sans-serif;
+}
+
+::selection {
+  background: var(--blue);
+  color: white;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border-light); border-radius: 2px; }
