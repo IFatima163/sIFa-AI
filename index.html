@@ -2,9 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/inara_favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>sifa-ai</title>
+    <title>Inara-AI</title>
+    <script>
+      const path = new URLSearchParams(window.location.search).get('path');
+      if (path) window.history.replaceState(null, '', path);
+    </script>
   </head>
   <body>
     <div id="root"></div>

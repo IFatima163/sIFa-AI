@@ -3,6 +3,9 @@ import { useLocation, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft } from 'lucide-react';
 import CaseStudyCard from '../components/CaseStudyCard';
+import leadVideo from '../assets/videos/lead-engine.mp4';
+import supportVideo from '../assets/videos/client-support.mp4';
+import adminVideo from '../assets/videos/admin-reporting.mp4';
 
 const cases = [
   {
@@ -14,6 +17,7 @@ const cases = [
     after: 'Form submitted. AI generates a personalized response. Contact and deal created in HubSpot automatically. Follow-up email sent — all within 2 minutes, no human involved.',
     tools: ['Google Forms', 'OpenAI', 'HubSpot CRM', 'Gmail', 'Make'],
     impact: 'Response time reduced from hours to under 2 minutes. Estimated 3–5 hours/week recovered for a 20-lead/week agency. 100% follow-up consistency.',
+    videoUrl: leadVideo,
   },
   {
     id: 'client-support',
@@ -24,6 +28,7 @@ const cases = [
     after: 'Every inbound email classified by AI. Routine emails auto-replied and labeled. Emails requiring human review flagged, labeled, and escalated.',
     tools: ['Gmail', 'OpenAI', 'Make'],
     impact: 'Estimated 70–80% of routine emails handled automatically. ~1.5 hours/day recovered per account manager. Human attention reserved for complex issues.',
+    videoUrl: supportVideo,  
   },
   {
     id: 'admin-reporting',
@@ -34,6 +39,7 @@ const cases = [
     after: 'Sheet data aggregated automatically. Claude generates the report narrative. Row logged, email sent — no human involvement. Invoice tracker scans and sends reminders on schedule.',
     tools: ['Google Sheets', 'Claude API', 'Gmail', 'Make'],
     impact: 'Report generation reduced from 2–4 hours to under 5 minutes per client. Invoice follow-up 100% consistent with zero manual effort.',
+    videoUrl: adminVideo,  
   },
 ];
 
@@ -86,7 +92,7 @@ export default function CaseStudies() {
               fontWeight: 600, fontSize: 15 }}>
             Book a Call
           </motion.a>
-          <motion.a href="mailto:hello@sifaai.com"
+          <motion.a href="mailto:hello@inaraai.com"
             whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}
             style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '14px 28px',
               borderRadius: 10, border: '1px solid var(--border-light)', color: 'var(--text-dim)',

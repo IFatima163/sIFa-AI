@@ -22,7 +22,7 @@ export default function Hero() {
             Book a Call
           </a>
           <a
-            href="mailto:hello@sifaai.com"
+            href="mailto:hello@inaraai.com"
             className="border border-white/20 text-white px-8 py-3 rounded font-medium hover:border-white/50 transition-colors"
           >
             Email Me

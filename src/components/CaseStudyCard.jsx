@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import AnimatedSection from './AnimatedSection';
 
-export default function CaseStudyCard({ id, label, title, problem, before, after, tools, impact }) {
+export default function CaseStudyCard({ id, label, title, problem, before, after, tools, impact, videoUrl }) {
   return (
     <AnimatedSection>
       <div id={id} style={{ borderRadius: 16, border: '1px solid var(--border)',
@@ -38,6 +38,16 @@ export default function CaseStudyCard({ id, label, title, problem, before, after
               </div>
             </div>
           </div>
+
+          {videoUrl && (
+            <div style={{ marginBottom: 24, borderRadius: 10, overflow: 'hidden', border: '1px solid var(--border)' }}>
+              <video
+                src={videoUrl}
+                controls
+                style={{ width: '100%', display: 'block', maxHeight: 360, background: '#000' }}
+              />
+            </div>
+          )}
 
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 24 }}>
             {tools.map((t, i) => (

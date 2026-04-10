@@ -33,7 +33,7 @@ export default function Navbar() {
       >
         <div style={{ maxWidth: 1100, margin: '0 auto', height: 64, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <Link to="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 2 }}>
-            <span style={{ fontFamily: 'Syne', fontWeight: 800, fontSize: 20, color: 'var(--text)' }}>Sifa</span>
+            <span style={{ fontFamily: 'Syne', fontWeight: 800, fontSize: 20, color: 'var(--text)' }}>Inara</span>
             <span style={{ fontFamily: 'Syne', fontWeight: 800, fontSize: 20, color: 'var(--blue)' }}>AI</span>
           </Link>
 
@@ -43,7 +43,7 @@ export default function Navbar() {
               onMouseLeave={e => e.target.style.color = 'var(--text-dim)'}>
               Case Studies
             </Link>
-            <a href="mailto:hello@sifaai.com" style={{
+            <a href="mailto:hello@inaraai.com" style={{
               fontSize: 14, padding: '8px 20px', borderRadius: 8,
               background: 'var(--blue)', color: 'white', textDecoration: 'none',
               fontWeight: 500, transition: 'opacity 0.2s',
@@ -72,7 +72,7 @@ export default function Navbar() {
               <Link to="/case-studies" style={{ color: 'var(--text-dim)', textDecoration: 'none', fontSize: 15 }}>Case Studies</Link>
               <a href="https://calendly.com/placeholder" target="_blank" rel="noopener noreferrer"
                 style={{ color: 'var(--blue)', textDecoration: 'none', fontSize: 15 }}>Book a Call</a>
-              <a href="mailto:hello@sifaai.com" style={{ color: 'var(--text-dim)', textDecoration: 'none', fontSize: 15 }}>hello@sifaai.com</a>
+              <a href="mailto:hello@inaraai.com" style={{ color: 'var(--text-dim)', textDecoration: 'none', fontSize: 15 }}>hello@inaraai.com</a>
             </div>
           </motion.div>
         )}

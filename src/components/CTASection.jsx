@@ -30,7 +30,7 @@ export default function CTASection() {
                   fontWeight: 600, fontSize: 15 }}>
                 <Calendar size={16} /> Book a Call
               </motion.a>
-              <motion.a href="mailto:hello@sifaai.com"
+              <motion.a href="mailto:hello@inaraai.com"
                 whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}
                 style={{ display: 'inline-flex', alignItems: 'center', gap: 10, padding: '14px 28px',
                   borderRadius: 10, border: '1px solid var(--border-light)', background: 'transparent',
