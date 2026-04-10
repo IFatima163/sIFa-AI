@@ -1,7 +1,7 @@
 import Hero from '../components/Hero';
 import Pain from '../components/Pain';
 import SystemsOverview from '../components/SystemsOverview';
-import ResultsBar from '../components/ResultsBar';
+import Pricing from '../components/Pricing';
 import CTASection from '../components/CTASection';
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
       <Hero />
       <Pain />
       <SystemsOverview />
-      <ResultsBar />
+      <Pricing />
       <CTASection />
     </main>
   );

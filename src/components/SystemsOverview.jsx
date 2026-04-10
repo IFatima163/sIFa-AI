@@ -37,18 +37,21 @@ export default function SystemsOverview() {
         <AnimatedSection>
           <p style={{ fontSize: 11, fontWeight: 600, letterSpacing: '0.12em', textTransform: 'uppercase',
             color: 'var(--text-muted)', marginBottom: 16 }}>What We Build</p>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: 24 }}>
-            <h2 style={{ fontSize: 'clamp(32px, 5vw, 52px)', fontWeight: 800, lineHeight: 1.1, maxWidth: 420 }}>
-              Three systems. One leaner agency.
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: 24, marginBottom: 16 }}>
+            <h2 style={{ fontSize: 'clamp(32px, 5vw, 52px)', fontWeight: 800, lineHeight: 1.1, maxWidth: 460 }}>
+              Real systems. Documented results.
             </h2>
             <Link to="/case-studies" style={{ display: 'inline-flex', alignItems: 'center', gap: 6,
               color: 'var(--blue)', textDecoration: 'none', fontSize: 14, fontWeight: 500 }}>
               View all case studies <ArrowRight size={14} />
             </Link>
           </div>
+          <p style={{ fontSize: 15, color: 'var(--text-dim)', maxWidth: 560, lineHeight: 1.7, marginBottom: 40 }}>
+            These are three systems we've built and documented. They're included across our packages depending on what your agency needs. Every engagement is scoped to your ops — not a template dropped in.
+          </p>
         </AnimatedSection>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 16, marginTop: 56 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 16 }}>
           {systems.map((s, i) => {
             const Icon = s.icon;
             return (
@@ -76,11 +79,10 @@ export default function SystemsOverview() {
                     <span style={{ fontSize: 13, color: 'var(--blue)', fontWeight: 600 }}>{s.metric}</span>
                     <Link to={`/case-studies#${s.anchor}`}
                       style={{ display: 'inline-flex', alignItems: 'center', gap: 4,
-                        color: 'var(--text-dim)', textDecoration: 'none', fontSize: 13,
-                        transition: 'color 0.2s' }}
+                        color: 'var(--text-dim)', textDecoration: 'none', fontSize: 13 }}
                       onMouseEnter={e => e.currentTarget.style.color = 'var(--text)'}
                       onMouseLeave={e => e.currentTarget.style.color = 'var(--text-dim)'}>
-                      Details <ArrowRight size={12} />
+                      Case study <ArrowRight size={12} />
                     </Link>
                   </div>
                 </motion.div>

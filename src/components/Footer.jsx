@@ -11,7 +11,7 @@ export default function Footer() {
         </div>
         <div style={{ display: 'flex', gap: 24, alignItems: 'center' }}>
           <Link to="/case-studies" style={{ fontSize: 13, color: 'var(--text-muted)', textDecoration: 'none' }}>Case Studies</Link>
-          <a href="mailto:hello@inaraai.com" style={{ fontSize: 13, color: 'var(--text-muted)', textDecoration: 'none' }}>hello@inaraai.com</a>
+          <a href="mailto:inayat.fatima.qureshi@gmail.com" style={{ fontSize: 13, color: 'var(--text-muted)', textDecoration: 'none' }}>inayat.fatima.qureshi@gmail.com</a>
         </div>
         <p style={{ fontSize: 12, color: 'var(--text-muted)' }}>© {new Date().getFullYear()} Inara AI</p>
       </div>

@@ -43,7 +43,7 @@ export default function Navbar() {
               onMouseLeave={e => e.target.style.color = 'var(--text-dim)'}>
               Case Studies
             </Link>
-            <a href="mailto:hello@inaraai.com" style={{
+            <a href="mailto:inayat.fatima.qureshi@gmail.com" style={{
               fontSize: 14, padding: '8px 20px', borderRadius: 8,
               background: 'var(--blue)', color: 'white', textDecoration: 'none',
               fontWeight: 500, transition: 'opacity 0.2s',
@@ -70,9 +70,9 @@ export default function Navbar() {
             }}>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
               <Link to="/case-studies" style={{ color: 'var(--text-dim)', textDecoration: 'none', fontSize: 15 }}>Case Studies</Link>
-              <a href="https://calendly.com/placeholder" target="_blank" rel="noopener noreferrer"
+              <a href="https://cal.com/inaraai/30min?user=inaraai&overlayCalendar=true" target="_blank" rel="noopener noreferrer"
                 style={{ color: 'var(--blue)', textDecoration: 'none', fontSize: 15 }}>Book a Call</a>
-              <a href="mailto:hello@inaraai.com" style={{ color: 'var(--text-dim)', textDecoration: 'none', fontSize: 15 }}>hello@inaraai.com</a>
+              <a href="mailto:inayat.fatima.qureshi@gmail.com" style={{ color: 'var(--text-dim)', textDecoration: 'none', fontSize: 15 }}>inayat.fatima.qureshi@gmail.com</a>
             </div>
           </motion.div>
         )}

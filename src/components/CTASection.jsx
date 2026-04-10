@@ -23,14 +23,14 @@ export default function CTASection() {
             </p>
 
             <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
-              <motion.a href="https://calendly.com/placeholder" target="_blank" rel="noopener noreferrer"
+              <motion.a href="https://cal.com/inaraai/30min?user=inaraai&overlayCalendar=true" target="_blank" rel="noopener noreferrer"
                 whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}
                 style={{ display: 'inline-flex', alignItems: 'center', gap: 10, padding: '14px 28px',
                   borderRadius: 10, background: 'var(--blue)', color: 'white', textDecoration: 'none',
                   fontWeight: 600, fontSize: 15 }}>
                 <Calendar size={16} /> Book a Call
               </motion.a>
-              <motion.a href="mailto:hello@inaraai.com"
+              <motion.a href="mailto:inayat.fatima.qureshi@gmail.com"
                 whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}
                 style={{ display: 'inline-flex', alignItems: 'center', gap: 10, padding: '14px 28px',
                   borderRadius: 10, border: '1px solid var(--border-light)', background: 'transparent',
