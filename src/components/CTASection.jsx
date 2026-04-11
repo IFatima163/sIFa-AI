@@ -37,7 +37,7 @@ export default function CTASection() {
                   color: 'var(--text-dim)', textDecoration: 'none', fontWeight: 500, fontSize: 15 }}
                 onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--blue)'; e.currentTarget.style.color = 'var(--text)'; }}
                 onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--border-light)'; e.currentTarget.style.color = 'var(--text-dim)'; }}>
-                <Mail size={16} /> Email Me
+                <Mail size={16} /> Email Us
               </motion.a>
             </div>
           </div>

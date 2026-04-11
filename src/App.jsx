@@ -13,7 +13,7 @@ function ScrollToTop() {
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/inara-ai">
       <ScrollToTop />
       <Navbar />
       <Routes>

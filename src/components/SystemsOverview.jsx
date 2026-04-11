@@ -8,7 +8,7 @@ const systems = [
     icon: TrendingUp,
     label: 'Revenue System',
     title: 'Agency Lead Engine',
-    desc: 'Automated lead intake, CRM entry, deal creation, and personalized follow-up — triggered the moment a form is submitted.',
+    desc: 'Automated lead intake, CRM entry, deal creation, and personalized follow-up ; triggered the moment a form is submitted.',
     metric: '3–5 hrs/week recovered',
     anchor: 'lead-engine',
   },
@@ -47,7 +47,7 @@ export default function SystemsOverview() {
             </Link>
           </div>
           <p style={{ fontSize: 15, color: 'var(--text-dim)', maxWidth: 560, lineHeight: 1.7, marginBottom: 40 }}>
-            These are three systems we've built and documented. They're included across our packages depending on what your agency needs. Every engagement is scoped to your ops — not a template dropped in.
+            These are three systems we've built and documented. They're included across our packages depending on what your agency needs. Every engagement is scoped to your ops ; not a template dropped in.
           </p>
         </AnimatedSection>
 

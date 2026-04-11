@@ -52,7 +52,7 @@ export default function Hero() {
 
         <motion.p initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.4 }}
           style={{ fontSize: 18, color: 'var(--text-dim)', maxWidth: 560, lineHeight: 1.7, marginBottom: 40, fontWeight: 300 }}>
-          We install AI systems that eliminate the manual ops work draining your agency — from lead intake and client support to reporting, invoicing, and internal workflows. You get leverage. Your team gets time back.
+          We install AI systems that eliminate the manual ops work draining your agency ; from lead intake and client support to reporting, invoicing, and internal workflows. You get leverage. Your team gets time back.
         </motion.p>
 
         <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.5 }}

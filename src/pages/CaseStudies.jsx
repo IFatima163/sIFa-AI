@@ -14,7 +14,7 @@ const cases = [
     title: 'Agency Lead Engine',
     problem: 'Every inbound lead required manual CRM entry, deal creation, and a follow-up email. At 10–20 minutes per lead, response times were inconsistent and leads regularly fell through the cracks.',
     before: 'Form submitted. Someone reads it. Manually creates contact and deal in HubSpot. Writes and sends a follow-up. Sometimes same day. Sometimes not.',
-    after: 'Form submitted. AI generates a personalized response. Contact and deal created in HubSpot automatically. Follow-up email sent — all within 2 minutes, no human involved.',
+    after: 'Form submitted. AI generates a personalized response. Contact and deal created in HubSpot automatically. Follow-up email sent ; all within 2 minutes, no human involved.',
     tools: ['Google Forms', 'OpenAI', 'HubSpot CRM', 'Gmail', 'Make'],
     impact: 'Response time reduced from hours to under 2 minutes. Estimated 3–5 hours/week recovered for a 20-lead/week agency. 100% follow-up consistency.',
     videoUrl: leadVideo,
@@ -36,7 +36,7 @@ const cases = [
     title: 'Admin & Reporting Automation',
     problem: 'Monthly client reports took 2–4 hours each to pull, write, and send. Invoice follow-up depended on someone remembering to check a spreadsheet.',
     before: 'Data pulled from sheets manually. Report written by a team member. Formatted and emailed. Overdue invoices chased when someone remembered.',
-    after: 'Sheet data aggregated automatically. Claude generates the report narrative. Row logged, email sent — no human involvement. Invoice tracker scans and sends reminders on schedule.',
+    after: 'Sheet data aggregated automatically. Claude generates the report narrative. Row logged, email sent ; no human involvement. Invoice tracker scans and sends reminders on schedule.',
     tools: ['Google Sheets', 'Claude API', 'Gmail', 'Make'],
     impact: 'Report generation reduced from 2–4 hours to under 5 minutes per client. Invoice follow-up 100% consistent with zero manual effort.',
     videoUrl: adminVideo,  
@@ -72,7 +72,7 @@ export default function CaseStudies() {
           Three systems. Real outcomes.
         </h1>
         <p style={{ fontSize: 16, color: 'var(--text-dim)', marginBottom: 64, lineHeight: 1.7 }}>
-          Built for marketing agencies. Projected impact based on spec builds — numbers are conservative estimates.
+          Built for marketing agencies. Projected impact based on spec builds ; numbers are conservative estimates.
         </p>
       </motion.div>
 
@@ -97,7 +97,7 @@ export default function CaseStudies() {
             style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '14px 28px',
               borderRadius: 10, border: '1px solid var(--border-light)', color: 'var(--text-dim)',
               textDecoration: 'none', fontWeight: 500, fontSize: 15 }}>
-            Email Me
+            Email Us
           </motion.a>
         </div>
       </div>
