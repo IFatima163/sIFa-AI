@@ -170,7 +170,7 @@ export default function Pricing() {
             </p>
             <a href="mailto:inayat.fatima.qureshi@gmail.com" style={{ fontSize: 13, color: 'var(--text-muted)',
               textDecoration: 'none', whiteSpace: 'nowrap' }}>
-              Questions? Email us →
+              Questions? Email Me →
             </a>
           </div>
         </AnimatedSection>

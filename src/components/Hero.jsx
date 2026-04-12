@@ -70,7 +70,7 @@ export default function Hero() {
               fontWeight: 500, fontSize: 15, background: 'var(--surface)' }}
             onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--blue)'; e.currentTarget.style.color = 'var(--text)'; }}
             onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--border-light)'; e.currentTarget.style.color = 'var(--text-dim)'; }}>
-            Email Us
+            Email Me
           </motion.a>
         </motion.div>
 

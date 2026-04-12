@@ -97,7 +97,7 @@ export default function CaseStudies() {
             style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '14px 28px',
               borderRadius: 10, border: '1px solid var(--border-light)', color: 'var(--text-dim)',
               textDecoration: 'none', fontWeight: 500, fontSize: 15 }}>
-            Email Us
+            Email Me
           </motion.a>
         </div>
       </div>

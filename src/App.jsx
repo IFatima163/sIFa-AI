@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import CaseStudies from './pages/CaseStudies';
 
+const basename = import.meta.env.PROD ? '/inara-ai' : '/';
+
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
@@ -13,7 +15,7 @@ function ScrollToTop() {
 
 export default function App() {
   return (
-    <Router basename="/inara-ai">
+    <Router basename={basename}>
       <ScrollToTop />
       <Navbar />
       <Routes>
